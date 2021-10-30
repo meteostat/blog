@@ -47,8 +47,12 @@ module.exports = {
       ],
       copyright: [
         {
-          text: 'Copyright © Meteostat',
-          link: 'https://meteostat.net',
+          text: 'Legal',
+          link: 'https://meteostat.net/en/legal'
+        },
+        {
+          text: 'Privacy',
+          link: 'https://meteostat.net/en/privacy'
         }
       ],
     },

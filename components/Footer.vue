@@ -19,8 +19,8 @@ class="contact-item list-inline-item"
 </NavLink>
 </li>
 </ul>
-<ul v-if="copyright" class="list-unstyled">
-<li v-for="item in copyright" :key="item.text" class="copyright-item">
+<ul v-if="copyright" class="list-unstyled list-inline">
+<li v-for="item in copyright" :key="item.text" class="copyright-item list-inline-item">
 <NavLink :link="item.link">{{ item.text }}</NavLink>
 </li>
 </ul>
