@@ -1,10 +1,12 @@
 ---
+lang: en
 title: A Mild Winter in Europe
 date: 2020-03-18
 tags:
   - Climate
+  - Weather
 author: Christian Lamprecht
-featuredimg: 'https://images.unsplash.com/photo-1568777036071-f9a769596a49?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjE3MzYxfQ&auto=format&fit=crop&w=1351&q=80'
+featuredimg: 'https://media.meteostat.net/stock/thermometer.jpg'
 summary: The trend of increasing temperatures in Europe and the world continues.
 ---
 

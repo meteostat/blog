@@ -10,13 +10,21 @@ module.exports = themeConfig => {
     logo: '/assets/img/logo.png',
     nav: themeConfig.nav || [
       {
-        text: 'Blog',
-        link: '/',
+        text: 'Home',
+        link: '/'
       },
       {
-        text: 'Tags',
-        link: '/tag/',
+        text: 'Weather',
+        link: '/tag/Weather/'
       },
+      {
+        text: 'Climate',
+        link: '/tag/Climate/'
+      },
+      {
+        text: 'Developers',
+        link: '/tag/Developers/'
+      }
     ],
     summary: themeConfig.summary === undefined ? true : themeConfig.summary,
     summaryLength:
@@ -35,6 +43,7 @@ module.exports = themeConfig => {
         id: 'post',
         dirname: '_posts',
         path: '/',
+        itemPermalink: '/:year/:month/:slug'
       },
     ],
     frontmatters: [
