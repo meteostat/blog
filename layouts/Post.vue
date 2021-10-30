@@ -23,6 +23,8 @@ itemtype="https://schema.org/BlogPosting"
   </div>
 </div>
 
+<Ad />
+
 <div class="row justify-content-center text-center mt-4 mb-40">
   <div class="col-md-9">
     <img class="featuredimg" :src="$frontmatter.featuredimg">
@@ -57,6 +59,7 @@ itemtype="https://schema.org/BlogPosting"
 import Toc from '@theme/components/Toc.vue'
 import PostMeta from '@theme/components/PostMeta.vue'
 import Avatar from '@theme/components/Avatar.vue'
+import Ad from '@theme/components/Ad.vue'
 import { Comment } from '@vuepress/plugin-blog/lib/client/components'
 
 export default {
@@ -64,10 +67,10 @@ export default {
     Toc,
     PostMeta,
     Avatar,
+    Ad,
     Comment,
     Newsletter: () => import('@theme/components/Newsletter.vue'),
-  },
-
+  }
 }
 </script>
 
