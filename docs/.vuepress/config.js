@@ -11,6 +11,7 @@ module.exports = {
     ['meta', { rel: 'icon', type: 'image/png', sizes: '32x32', href: 'https://media.meteostat.net/favicon-32x32.png' }],
     ['meta', { rel: 'icon', href: 'https://media.meteostat.net/icon.svg' }],
     ['script', {
+      id: 'adsense',
       async: true,
       src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6830849181977374',
       crossorigin: 'anonymous'
