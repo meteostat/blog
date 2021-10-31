@@ -63,5 +63,8 @@ export default {
 
 .nav-link
   &:hover, &.router-link-active
-    color $accentColor
+    color $darkTextColor !important
+    border-bottom: 2px solid #0678be
+    margin-bottom: -0.9rem
+    padding-bottom: 1.3rem
 </style>
