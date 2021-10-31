@@ -41,6 +41,7 @@ module.exports = themeConfig => {
     directories: [
       {
         id: 'post',
+        title: '',
         dirname: '_posts',
         path: '/',
         itemPermalink: '/:year/:month/:slug'
